@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Laquelle de ces questions n'est pas bien formulée ?",
+    "answers": {
+     "a": "Which one is the one you want?",
+     "b": "Where do you think you are going?",
+     "c": "What are you saying?",
+     "d": "Why do you are here?"
+    },
+    "correctAnswer": "d",
+    "explanation": "L'emploi de deux auxiliaire dans la dernière proposition n'est pas correcte. On pourrait dire 'Why are you here?' (pourquoi es-tu ici ?) ou bien 'Why do you come here?' (pourquoi viens-tu ici ?). Les autres propositions sont correctes et signifient, dans l'ordre, 'Lequel est-ce que tu veux ?', 'Où crois tu que tu vas ?' et 'Qu'est-ce que tu dis ?'."
+  },  
+  {
+    "question": "Lequel de ces verbes irréguliers est incorrect ?",
+    "answers": {
+     "a": "read/read/read",
+     "b": "do/done/did",
+     "c": "listen/listen/listen",
+     "d": "make/made/made"
+    },
+    "correctAnswer": "c",
+    "explanation": "Le verbe 'listen' est un verbe régulier: listen/listened/listened."
+  },  
+  {
+    "question": "Que signifie la phrase 'Later, I would like to be a writer!' ?",
+    "answers": {
+     "a": "Plus tard, je voudrais être un écrivain !",
+     "b": "Je vais écrire tout à l'heure !",
+     "c": "J'aime beaucoup écrire tard dans la nuit !",
+     "d": "J'ai appris à écrire très tard !"
+    },
+    "correctAnswer": "a",
+    "explanation": "'I would like' veut dire 'Je voudrais'. Avec 'could' et 'should' ont les appelle auxiliaires modaux ils sont les formes au prétérit de will, can et shall.<br>'Will' est utilisé pour formuler le futur, 'would' le conditionnel, une volonté ou une habitude passée.<br>'Can' est utilisé pour formuler le capacité et la possibilité, 'could' est utilisé pour les formuler au conditionnel, ou bien pour demander la permission.<br>'Shall' s'utilise moins dans l'anglais d'aujourd'hui mais est plutôt équivalent à 'will'. 'Should' est utilisé pour demander ou donner un conseil, ou un suggestion."
+  },  
+  {
+    "question": "Mettez l'adjectif 'nice' au comparatif de supériorité.",
+    "answers": {
+     "a": "more nice",
+     "b": "nicer",
+     "c": "nicest",
+     "d": "very nice"
+    },
+    "correctAnswer": "b",
+    "explanation": "Le comparatif permet d'établir une relation de comparaison entre un sujet et un objet vis à vis d'un adjectif. Quand la comparaison va dans le sens d'une supériorité du sujet vis à vis de l'objet, il peut y avoir plusieurs façons de modifier l'adjectif pour la faire apparaitre selon que l'adjectif est court (une syllabe, ou deux pour les adjectifs en -y) ou long (deux syllabes et plus). Pour les adjectifs courts on ajoute la terminaison '-er', tandis que pour les longs on ne modifie pas l'adjectif, on ajoute simplement 'more' avant."
+  },  
+  {
+    "question": "Dans la phrase 'Tomorrow he has school, so tonight he must to go to bed early!' quelle est la faute ?",
+    "answers": {
+     "a": "Tomorrow implique qu'on doit utiliser le futur dans le début de la phrase : 'Tomorrow he <b>will</b> have school...",
+     "b": "'Il doit aller' se dit 'He must to go<b>es</b>' et pas 'He must to go",
+     "c": "'Il doit aller' se dit 'He must go' et pas 'He must <b>to</b> go",
+     "d": "'Il doit aller' se dit 'He must<b>s</b> to go' et pas 'He <b>must</b> to go"
+    },
+    "correctAnswer": "c",
+    "explanation": "L'obligation utilise le modal 'must' qui s'emploie toujours sur le schéma 'pronom' + 'must' + 'forme de base du verbe'. Must ne change jamais même à la troisième personne du singulier."
+  },
+  {
+    "question": "Que signifie 'You really are a pain!!'",
+    "answers": {
+     "a": "Tu es vraiment pénible !",
+     "b": "Tu aimes vraiment le pain !",
+     "c": "Tu es vraiment du pain !",
+     "d": "Tu aimes vraiment pas le pain !"
+    },
+    "correctAnswer": "a",
+    "explanation": "Le 'pain' qu'on mange se dit 'bread'. 'Pain' c'est 'douleur' mais par extension c'est aussi quelque chose de pénible, d'inconfortable, ou d'embêtant."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "question": "",
+    "answers": {
+     "a": "",
+     "b": "",
+     "c": "",
+     "d": ""
+    },
+    "correctAnswer": "",
+    "explanation": ""
+  },  
+  {
+    "question": "Lequel de ces verbes irréguliers est faux en anglais britannique mais correct en anglais américain ?",
+    "answers": {
+     "a": "dream/dreamt/dreamt",
+     "b": "dreamed/dreamed/dreamed",
+     "c": "meant/meant/meant",
+     "d": "mean/meaned/meaned"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },   
+  {
+    "question": "",
+    "answers": {
+     "a": "",
+     "b": "",
+     "c": "",
+     "d": ""
+    },
+    "correctAnswer": "",
+    "explanation": ""
+  },  
+  {
+    "question": "",
+    "answers": {
+     "a": "",
+     "b": "",
+     "c": "",
+     "d": ""
+    },
+    "correctAnswer": "",
+    "explanation": ""
+  },  
+  {
+    "question": "",
+    "answers": {
+     "a": "",
+     "b": "",
+     "c": "",
+     "d": ""
+    },
+    "correctAnswer": "",
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "answers": {
+     "a": "",
+     "b": "",
+     "c": "",
+     "d": ""
+    },
+    "correctAnswer": "",
+    "explanation": ""
+  },  
+  {
+    "question": "",
+    "answers": {
+     "a": "",
+     "b": "",
+     "c": "",
+     "d": ""
+    },
+    "correctAnswer": "",
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "answers": {
+     "a": "",
+     "b": "",
+     "c": "",
+     "d": ""
+    },
+    "correctAnswer": "",
+    "explanation": ""
+  }
+]

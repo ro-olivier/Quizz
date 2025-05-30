@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Réduire l'expression suivante : A = 16 + 3x – 3y + 7y – 4x",
+    "answers": {
+     "a": "A = 19",
+     "b": "A = 16 + 7x + 10y",
+     "c": "A = 16 - x + 4y",
+     "d": "A = 4y - x"
+    },
+    "correctAnswer": "c",
+    "explanation": "Pour réduire une expression comprenant des inconnues (ici x et y) on rassemble les termes contenant chaque inconnues séparément.<br>Ainsi le +3x et le -4x deviennent -x, et le -3y et le +7y deviennent +4y.<br>Le 16 est un terme constant qui ne contient pas d'inconnue, il est donc laissé tel quel."
+      },
+  {
+    "question": "Développer au maximum l'expression suivante : B = 4*(x+2)(y-3)",
+    "answers": {
+     "a": "B = 4xy + 8y -12x - 9",
+     "b": "B = -4xy + 12x + 8y + 9",
+     "c": "B = 4x - 4yx + 4y",
+     "d": "B = 9"
+    },
+    "correctAnswer": "a",
+    "explanation": "Pour développer une expression on multiplie le contenu de chaque parenthèse (qu'on appelle des \"facteurs\") deux à deux, en distribuant chaque membre à l'intérieur d'un facteur avec ceux d'un autre facteur, et ça dans l'ordre qu'on veut. Un facteur en dehors d'une parenthèse (comme le 4 dans l'expression) sont traitées comme s'ils en étaient une.<br>Ici, on peut par exemple commencer par distribuer le 4 dans la première parenthèse : 4*(x+2) devient donc 4x+8, et on a B = (4x+8)(y-3).<br>Puis on recommence en distribuant les deux parenthèses qui nous restent :<br>B = (4x+8)*y + (4x+3)*(-3) = 4x*y + 8y + 4x*(-3) + 3*(-3).<br>On effectue ensuite les multiplications et on simplifie l'expression en regroupant les termes qui contiennent les mêmes inconnues (s'il y a lieu de le faire), et on obtient notre résultat :<br>B = 4xy + 8y -12x - 9."
+      }
+]

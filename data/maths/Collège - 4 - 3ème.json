@@ -1,0 +1,13 @@
+[
+  {
+    "question": "Stéphane fait les soldes et veut calculer combien va lui coûter le jean qu'il a choisi. Le jean coûte 85€, mais est en solde à -20%. En plus de ça, Stéphane a une réduction de 5% supplémentaire car il est un habitué de la marque. Combien va lui coûter son jean après application de toutes les réductions ?",
+    "answers": {
+     "a": "85€",
+     "b": "68€",
+     "c": "80.75€",
+     "d": "64.60€"
+    },
+    "correctAnswer": "d",
+    "explanation": "Pour appliquer plusieurs pourcentages on les applique les uns après les autres, car la multiplication est <b>associative</b>. On peut donc calculer le prix du jean en enlevant 20% du prix initial (donc en multipliant par 1-0,2 = 0,8) puis en enlevant 5% au résultat intermédiaire (donc en le multipliant par 1-0,05 = 0,95). On a donc Prix final = Prix initial * 0,8 * 0,05."
+  }
+]

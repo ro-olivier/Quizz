@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Que signifie 'He didn't even tell me about it when we touched upon the topic!",
+    "answers": {
+     "a": "Il ne me l'a jamais dit mais on doit s'en parler !",
+     "b": "Il m'a déjà parlé de ce sujet il y a longtemps !",
+     "c": "Je vais lui en parler plus tard quand on abordera le sujet !",
+     "d": "Il ne me l'a même pas dit quand nous avons évoqué le sujet !"
+    },
+    "correctAnswer": "d",
+    "explanation": "'To touch upon' est un verbe à particule qui signifie 'évoquer (le sujet).'"
+  },  
+  {
+    "question": "Quelle est la signification du verbe 'to threathen someone of something' ?",
+    "answers": {
+     "a": "Menacer quelqu'un de quelque chose",
+     "b": "Annoncer quelque chose à quelqu'un",
+     "c": "Accuser quelqu'un de quelque chose",
+     "d": "Expliquer quelque chose à quelqu'un"
+    },
+    "correctAnswer": "a",
+    "explanation": "'Annoncer', 'accuser' et 'expliquer' sont des verbes quasiment identiques au français : 'announce', 'accuse' et 'explain'. Par contre 'a threat' c'est une menace, et 'to threathen' signifie menacer."
+  },  
+  {
+    "question": "Complétez la phrase suivante, qui signifie 'Ils avaient joué tout l'après-midi quand je suis arrivé' : 'They ____________ playing all afternoon when I arrived.'",
+    "answers": {
+     "a": "have been",
+     "b": "were",
+     "c": "had been",
+     "d": "had"
+    },
+    "correctAnswer": "c",
+    "explanation": "Pour exprimer une action qui était en cours dans le passé ('jouer pendant tout l'après-midi') jusqu'à un certain événement ('quand je suis arrivé') on utilise le Past Perfect Continuous qui se construit sur le schéma 'subject + had been + verb-ing + object. Une excellente fiche récap se trouve <a href='https://aceenglishgrammar.com/past-perfect-continuous-tense-rules-uses-and-examples/' style='text-decoration: underline;'>ici</a>."
+  },  
+  {
+    "question": "Comment dit-on 'susceptible' en anglais ?",
+    "answers": {
+     "a": "Sensitive",
+     "b": "Grumpy",
+     "c": "Touchy",
+     "d": "Uneasy"
+    },
+    "correctAnswer": "c",
+    "explanation": "'Sensitive' signifie 'sensible', 'grumpy' veut dire 'grincheux', et 'uneasy' signifie 'mal à l'aise'."
+  },   
+  {
+    "question": "Que signifie la phrase 'I'll see you around!' ?",
+    "answers": {
+     "a": "On se reverra dans le coin !",
+     "b": "Retourne-toi !",
+     "c": "Regarde à côté de toi !",
+     "d": "Tu regardes autour de toi !"
+    },
+    "correctAnswer": "a",
+    "explanation": "C'est une expression très présente dans l'anglais oral, parfois employée de façon abréviée : 'See you around!'."
+  },
+  {
+    "question": "Lequel de ces mots n'est pas un synonyme de l'adjectif 'small' ?",
+    "answers": {
+     "a": "Tiny",
+     "b": "Little",
+     "c": "Modest",
+     "d": "Under"
+    },
+    "correctAnswer": "d",
+    "explanation": "'Under' signifie 'dessous', mais ne contient pas de notion de petite taille, de réduction, ou autre sens associé à 'small'."
+  }
+]

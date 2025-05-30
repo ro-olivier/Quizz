@@ -1,0 +1,45 @@
+[
+  {
+    "question": "Quelle(s) valeur(s) de x vérifie(nt) l'équation 3x + 2 = -1 ?",
+    "answers": {
+     "a": "-1",
+     "b": "0",
+     "c": "Aucune",
+     "d": "1 et -1"
+    },
+    "correctAnswer": "a",
+    "explanation": "L'équation peut être simplifée en regroupant les termes constants d'un côté et les termes \"en x\" de l'autre pour donner 3x = -3. On peut ensuite diviser des deux côtés par 3 pour obtenir x = -1."
+  },
+  {
+    "question": "Quelle formule permet de calculer le périmètre d'un cercle de rayon R ?",
+    "answers": {
+     "a": "4R + π",
+     "b": "2πR",
+     "c": "R<sup>2</sup>"
+    },
+    "correctAnswer": "b",
+    "explanation": "C'est la formule! Non plus sérieusement..."
+  },
+  {
+    "question": "En géométrie euclidienne, deux droite perpendiculaires...",
+    "answers": {
+      "a": "Forment un angle d'intersection égal à leurs longueurs",
+      "b": "Ont forcément la même longueur",
+      "c": "Se coupent en formant un angle droit",
+      "d": "Ne se coupent jamais"
+    },
+    "correctAnswer": "c",
+    "explanation": "C'est la définition même de la perpendicularité."
+  },
+  {
+    "question": "`Quel est cet objet mathématique représenté ci-dessous ?<br><img src='images/mobius.png' alt='Ruban de Möbius' class='max-w-full h-auto mt-2'>`",
+    "answers": {
+      "a": "Un tore",
+      "b": "Un ruban de Möbius<br><img src='images/mobius.png' alt='Réponse ruban de Möbius' class='max-w-full h-auto mt-2'>",
+      "c": "Une sphère",
+      "d": "Un cylindre"
+    },
+    "correctAnswer": "b",
+    "explanation": "`Il s'agit d'un ruban de Möbius : une surface à une seule face.<br><img src='images/mobius.png' alt='Explication ruban de Möbius' class='max-w-full h-auto mt-2'>`"
+  }
+]

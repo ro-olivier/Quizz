@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Quelle est le résultat de la multiplication de $0.215$ par $3.2$ ?",
+    "answers": {
+     "a": "0.688",
+     "b": "6.88",
+     "c": "0.686",
+     "d": "8.66"
+    },
+    "correctAnswer": "a",
+    "explanation": "Pour réaliser cette multiplication de tête on peut commencer par ramener les deux nombres à multiplier à des valeurs entières.<br>Ainsi on a $0.215 * 3.2 = 0.001 * 215 * 0.1 * 32 = 215 * 32 * 0.0001$.<br>On réalise ensuite le calcul $215 * 32$, par exemple en observant que cela équivaut à calculer $215 * 30 + 215 * 2 = 215 * 3 * 10 + 215 * 2 = 645 * 10 + 430 = 6450 + 430 = 6880$.<br>On réintègre ensuite les virgules en appliquant le facteur $0,0001$ mis de côté lors de la première étape. On obtient alors $6880 * 0.0001 = 0.688$."
+  },
+  {
+    "question": "Quelle est la décomposition du nombre 84 en facteurs premiers ?",
+    "answers": {
+     "a": "$\\{1,2,3,4,7,12,21,42\\}$",
+     "b": "$\\{2,3,7\\}$",
+     "c": "$\\{8,4\\}$",
+     "d": "$\\{2,2,3,7\\}$"
+    },
+    "correctAnswer": "d",
+    "explanation": "Pour décomposer un nombre en ses facteurs premiers, on cherche à le diviser au maximum par chaque nombre premier successivement.<br>Ici, $84$ peut être diviser par $2$, cela donne $42$, on a donc $2$ comme premier facteur premier de $84$.<br>Ensuite, $42$ est encore divisible par $2$ (on obtient $21$) donc on a un second $2$ comme facteur premier de $84$.<br>Enfin, $21$ est égal à $3 * 7$ qui sont tous les deux premiers, c'est donc terminé.<br>Les facteurs premiers de $84$ sont donc $\\{2,2,3,7\\}$."
+  },
+  {
+    "question": "Calculer de tête $7a + 13b$ pour $a = 3$ et $b = 2$.",
+    "answers": {
+     "a": "47",
+     "b": "34",
+     "c": "21",
+     "d": "13"
+    },
+    "correctAnswer": "a",
+    "explanation": "On remplace $a$ par $3$ et $b$ par $2$ dans l'expression $7a + 13b$, cela donne $7 * 3 + 13 * 2 = 21 + 26 = 47$."
+  },
+  {
+    "question": "Parmi les 4 propriétés ci-dessous, une seule n'est pas conservée par les symétries axiales, laquelle ?",
+    "answers": {
+     "a": "Les angles",
+     "b": "Les longueurs",
+     "c": "Le parallélisme",
+     "d": "L'orientation"
+    },
+    "correctAnswer": "d",
+    "explanation": "Une symétrie axiale est l'effet 'miroir' qu'on peut appliquer à une figure. Elle ne déforme pas la figure, donc les angles, les longueurs et le parallélisme sont tous conservés, par contre une symétrie peut changer d'orientation de la figure."
+  },
+  {
+    "question": "Quelle est l'aire de la figure ci-dessous ?<br><center><img src='images/5eme-figure.png' /></center>",
+    "answers": {
+     "a": "$12 cm^{2}$",
+     "b": "$12 m^{2}$",
+     "c": "$6c m^{2}$",
+     "d": "$12 cm^{3}$"
+    },
+    "correctAnswer": "a",
+    "explanation": "Pour calculer simplement l'aire de cette figure, on peut commencer par imaginer qu'on la sépare en deux figures : un rectangle $ADCX$ de côté $3 cm$ et $2 cm$ à gauche (le point $X$ étant un point supplémentaire qu'on ajoute sur le segment $AB$ à une distance de $2 cm$ du point $A$), et un triangle $XCB$, rectangle en $X$ de grand côté $BC$ de $8 cm$ et de petits côté $XB$ et $XC$ de $4 cm$ et $3 cm$ respectivement. L'aire de la figure sera égale à la somme des aires du rectangle et du triangle ainsi définis. L'aire du rectangle vaut $3 cm * 2 cm = 6 cm^{2}$ et l'aire du triangle vaut $0.5 * 4 cm * 3 cm = 6 cm^{2}$. L'aire totale de la figure vaut donc $12 cm^{2}$."
+  },
+  {
+    "question": "Simplifiez l'expression suivante : $6 * b + 2 * a - 2 * (b - 4 * a) - 2 * a$. ",
+    "answers": {
+     "a": "$2(4a + 3b)$",
+     "b": "$-24b + a$",
+     "c": "$-4(2a + b)$",
+     "d": "$-4a - b$"
+    },
+    "correctAnswer": "c",
+    "explanation": "Simplifier une expression signifie la rendre plus claire, souvent en regroupant ensemble les termes comportant les mêmes inconnues (ici $a$ et $b$). On peut commencer par simplifier les parenthèses puis regrouper tout ce qui peut l'être, et éventuellement factoriser ce qui peut l'être :<br>$6 * b + 2 * a - 2 * (b - 4 * a) - 2 * a = 6 * b + 2 * a - 2 * b + 8 * a - 2 * a)$<br>$= 2a + 8a - 2a + 6b - 2b$<br>$= 8a - 4b$<br>$= -4(2a + b)$."
+  }
+]

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script> 
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+  <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="manifest" href="images/icons/site.webmanifest">
+
+
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col items-center justify-center p-4">
+
+<div id="start-screen" class="w-full max-w-2xl mt-6 bg-white p-6 rounded-2xl shadow space-y-6 text-center">
+
+  <div id="subject-section" class="mt-6 space-y-6">
+    <!--<h2 class="text-xl font-bold">Choisissez un sujet :</h2>-->
+    <div id="subject-options" class="flex justify-center gap-6">
+      <div class="subject-btn border-2 rounded-xl p-2 transition hover:shadow-md" data-subject="maths">
+        <img src="images/maths.png" alt="Maths" class="w-20 h-20 mx-auto" />
+        <div class="mt-2 font-medium">Maths</div>
+      </div>
+      <div class="subject-btn border-2 rounded-xl p-2 transition hover:shadow-md" data-subject="english">
+        <img src="images/english.png" alt="Anglais" class="w-20 h-20 mx-auto" />
+        <div class="mt-2 font-medium">Anglais</div>
+      </div>
+      <!--<div class="subject-btn border-2 rounded-xl p-2 transition hover:shadow-md" data-subject="physics">
+        <img src="images/physics.png" alt="Physique" class="w-20 h-20 mx-auto" />
+        <div class="mt-2 font-medium">Physique</div>
+      </div>-->
+    </div>
+  </div>
+
+  <div id="level-container-wrapper" class="overflow-hidden transition-all duration-500 ease-in-out" style="max-height: 0px;">
+    <div id="level-section" class="mt-6 space-y-6">
+      <!--<h2 class="text-xl font-bold">Choisissez un niveau :</h2>-->
+      <div id="collège-levels">
+        <div class="flex flex-wrap justify-center gap-4 flex-col md:flex-row sm:items-center"></div>
+      </div>
+      <div id="lycée-levels">
+        <div class="flex flex-wrap justify-center gap-4 sm:flex-col md:flex-row sm:items-center"></div>
+      </div>
+      <div id="prépa-levels">
+        <div class="flex flex-wrap justify-center gap-4 sm:flex-col md:flex-row sm:items-center"></div>
+      </div>
+    </div>
+    <div id="button-container-wrapper" class="mt-6 space-y-6">
+      <button id="start-button" disabled class="hidden mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-lg transition-all duration-500 ease-in-out">Commencer le quizz</button>
+    </div>
+  </div>
+</div>
+<div id="scroll-anchor" class="mt-8"></div>
+
+  <div id="main-container" class="hidden overflow-hidden w-full max-w-2xl mt-6 bg-white p-6 rounded-2xl shadow space-y-6 transition-all duration-500 ease-in-out">
+    <div id="quizz-container" class="space-y-6">
+      <div id="question-progress" class="text-sm text-gray-500 font-medium text-center mt-2"></div>
+      <div id="quizz-content" class="relative w-full min-h-[300px]">
+    </div>
+
+    <div class="space-y-6">
+      <div class="flex justify-between mt-6 space-x-4">
+        <button id="previous" class="invisible bg-gray-300 hover:bg-gray-400 text-gray-700 px-4 py-2 rounded-md font-semibold">Précédent</button>
+        <button id="next" class="hidden bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-semibold">Suivant</button>
+        <button id="submit" class="hidden bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md font-semibold">Soumettre le quiz</button>
+      </div>
+
+      <div id="results" class="hidden mt-6 bg-gray-100 p-4 rounded-xl space-y-6 shadow text-center font-semibold text-gray-700"></div>
+      <div id="review-reminder" class="hidden mt-2 text-center text-sm text-gray-700 italic"></div>
+    </div>
+  </div>
+  <script defer src="quizz.js"></script>
+</body>
+</html>

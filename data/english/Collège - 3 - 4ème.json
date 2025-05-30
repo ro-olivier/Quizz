@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Complétez la phrase suivante, qui signifie 'Ne prends pas ce manteau, c'est le mien. Le tien est par-là' : 'Don't take this coat, it's _____.' _______ is over there !",
+    "answers": {
+     "a": "My/You",
+     "b": "I/You",
+     "c": "Mine/Yours",
+     "d": "Mine/Your's"
+    },
+    "correctAnswer": "c",
+    "explanation": "On cherche ici à utiliser des pronoms possessifs. Ceux-ci sont : mine, yours, his/hers/its, ours, yours, theirs."
+  },  
+  {
+    "question": "Laquelle de ces phrases est correcte ?",
+    "answers": {
+     "a": "He did much better than me in today's test!",
+     "b": "He did many better than me in today's test!",
+     "c": "He done much better than me in today's test!",
+     "d": "He done many better than me in today's test!"
+    },
+    "correctAnswer": "a",
+    "explanation": "La bonne formulation du verbe est 'did' car 'done' est la forme au passé composé du verbe 'to do' et nécessiterait donc un auxiliaire avant ('He <i>has</i> done...'). Entre 'many' et 'much' la différence est simple : 'many' s'emploie uniquement quand ce qui se trouve en grand nombre est dénombrable/comptable. Ici on parle d'un quelqu'un qui a eu un meilleur résultat, qui s'en est mieux sorti à un test, donc quelque chose qui n'est pas dénombrable. C'est donc 'much' qu'on utilise."
+  },  
+  {
+    "question": "Lequel de ces verbes irréguliers est correct ?",
+    "answers": {
+     "a": "dream/dram/drimen",
+     "b": "meet/mat/meeten",
+     "c": "give/gave/given",
+     "d": "feel/feal/fealen"
+    },
+    "correctAnswer": "c",
+    "explanation": "Les trois autres sont bien des verbes irréguliers mais les formes proposées sont fausses. Les correctes sont 'dream/dreamt/dreamt' ('rêver') (on trouve aussi 'dream/dreamed/dreamed' en anglais américain !), 'meet/met/met' (qui signifie 'rencontrer') et 'feel/felt/felt' ('ressentir')."
+  },  
+  {
+    "question": "Lequel de ces mots pouvant signifier 'jamais' ou 'déjà' est le seul à pouvoir s'employer dans une phrase négative ?",
+    "answers": {
+     "a": "never",
+     "b": "yet",
+     "c": "ever",
+     "d": "already"
+    },
+    "correctAnswer": "b",
+    "explanation": "On peut dire 'I have never played.' ('Je n'ai jamais joué.'), 'I haven't played yet.' ('Je n'ai pas encore joué.'), 'Did you ever play?' ('As-tu déjà joué ?') et 'I have already played.' ('Je n'ai pas encore joué.')."
+  },  
+  {
+    "question": "Lequel de ces mots a un pluriel irrégulier (c'est-à-dire un pluriel qui n'est pas un simple ajout de '-s' ou '-es' à la fin du mot) ?",
+    "answers": {
+     "a": "head",
+     "b": "foot",
+     "c": "toe",
+     "d": "knee"
+    },
+    "correctAnswer": "b",
+    "explanation": "Il s'agit du mot 'foot' dont le pluriel est 'feet'. Les pluriels irréguliers sont peu nombreux en anglais, mais ils concernent des mots courants : 'child' devient 'children', 'woman' et 'man' deviennent 'women' et 'men', 'foot' devient 'feet'. Il y a également quelques mots qui ne changent pas au pluriel :  deer, sheep ou moose."
+  },
+  {
+    "question": "Lequel de ces verbes n'est pas un verbe à particule ('phrasal verb'), c'est à dire un verbe dont on peut changer le sens en lui ajoutant une préposition ('by', 'up/down', 'about', 'back', etc.) ?",
+    "answers": {
+     "a": "To give",
+     "b": "To run",
+     "c": "To keep",
+     "d": "To eat"
+    },
+    "correctAnswer": "d",
+    "explanation": "Il existe énormément de 'phrasal verb' en anglais, mais 'to eat' n'en fait pas partie. On peut par exemple utiliser 'up' pour transformer 'to give' ('donner') en 'to give up' ('abandonner'), on peut utiliser 'out' pour transformer 'to run' ('courir') en 'to run out' ('manquer de') ou bien utiliser 'off' pour transformer 'to keep' ('garder') en 'to keep off' ('se tenir à l'écart') mais 'to eat' ne s'emploie que pour dire 'manger', et on ne peut pas changer son sens avec une préposition."
+  }
+]

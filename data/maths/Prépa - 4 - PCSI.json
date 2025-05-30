@@ -1,0 +1,13 @@
+[
+  {
+    "question": "Question 1",
+    "answers": {
+     "a": "A",
+     "b": "B",
+     "c": "C",
+     "d": "D"
+    },
+    "correctAnswer": "a",
+    "explanation": "Explication"
+  }
+]

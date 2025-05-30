@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Quelle est le résultat de la multiplication de $2.5$ par $3.2$ ?",
+    "answers": {
+     "a": "$8$",
+     "b": "$80$",
+     "c": "$8.8$",
+     "d": "$0.8$"
+    },
+    "correctAnswer": "a",
+    "explanation": "Pour réaliser cette multiplication de tête on peut observer que $2.5$ fois une quantité équivaut à $2$ fois cette quantité, plus une demie fois cette quantité. On a $2.5 * 3.2 = 2 * 3.2 + 0.5 * 3.2 = 6.4 + 1.6 = 8$."
+  },
+  {
+    "question": "Combien valent $\\frac{3}{2}$ de $8$ ?",
+    "answers": {
+     "a": "$3$",
+     "b": "$4$",
+     "c": "$12$",
+     "d": "$10$"
+    },
+    "correctAnswer": "c",
+    "explanation": "La fraction d'un nombre entier se calcule en appliquant la multiplication du numérateur de la fraction avec le nombre entier, puis en divisant par le dénominateur, ce qu'on peut aussi faire dans l'ordre inverse. Ici le plus simple est de diviser d'abord l'entier, $8$, par le dénominateur, $2$, (on obtient $4$) qu'on multiplie ensuite par le numérateur, $3$, ce qui nous donne $12$."
+  },
+  {
+    "question": "Il est 17:54. Le prochain bus passe dans 9 minutes. A quelle heure passe le prochain bus ?",
+    "answers": {
+     "a": "17h59",
+     "b": "18h03",
+     "c": "17h63",
+     "d": "17h32"
+    },
+    "correctAnswer": "b",
+    "explanation": "Le temps se compte en heures (24 dans une journée), minutes (60 dans une heure) et secondes (60 dans une minute). L'addition du temps nécessite donc parfois de convertir des secondes en minutes et des minutes en heures pour ne pas dépasser ces limites. Ici, on veut ajouter 9 minutes à 54, ce qui donnerait 63, ce qui n'est pas possible car au dessus de 60. On retranche donc 60 à notre résultat, qu'on convertit en une heure qu'on vient ajouter à nos 17h. Le résultat est donc 18h03."
+  },
+  {
+    "question": "Quelle est la différence entre un cercle, et un disque ?",
+    "answers": {
+     "a": "Un disque contient plus de points qu'un cercle.",
+     "b": "Un disque n'a pas de rayon, tandis qu'un cercle en a un.",
+     "c": "Un disque est l’ensemble des points à une certaine distance d’un point (appelé centre), tandis qu'un cercle est l’ensemble des points situés à une distance inférieure ou égale à un point (appelé centre).",
+     "d": "Le diamètre d'un cercle est constant, mais pas celui d'un disque."
+    },
+    "correctAnswer": "c",
+    "explanation": "C'est la définition ! Imagine un cerceau (cercle) et un frisbee (disque). Le frisbee est plein, tandis que le cerceau ne l'est pas. Tous les points du cerceau sont à la même distance de son centre, alors que le frisbee est plein et contient des points proches du centre et des points proches du bord."
+  },
+    {
+    "question": "Qu'appelle-t-on la médiatrice d'un segment ?",
+    "answers": {
+     "a": "C'est la droite formée par les points à égale distance de tous les points du segment.",
+     "b": "C'est n'importe quelle droite qui coupe le segment en son milieu en formant un angle de moins de 90°.",
+     "c": "C'est la droite qui prolonge parfaitement le segment des deux côtés.",
+     "d": "Seuls les cercles possèdent une médiatrice, les segments n'en possèdent pas."
+    },
+    "correctAnswer": "a",
+    "explanation": "C'est la définition d'une médiatrice. Tu peux t'en souvenir en remarquant que <b>m</b>édia commence par un <b>m</b>, comme <b>m</b>oitié et que la médiatrice découpe le segment en deux moitiés égales." 
+  },
+  {
+    "question": "Parmi les 4 événements suivants, lequel est le plus probable ?",
+    "answers": {
+     "a": "Lancer un dé à 6 faces et tomber sur le 4.",
+     "b": "Lancer une pièce équilibrée en l'air et obtenir 'face' quand elle atterrie.",
+     "c": "Jouer au loto chaque mois dans sa vie et toucher le gros lot.",
+     "d": "Lancer un dé à 6 faces et tomber sur le 7."
+    },
+    "correctAnswer": "b",
+    "explanation": "Le dé à une chance sur 6 de tomber sur chacune de ses faces, numérotées de 1 à 6. Tomber sur un 7 est impossible (probabilité de 0), tandis qu'on a une chance sur 6 de tomber sur le 4 (probabilité de $\\frac{1}{6}$). Gagner au loto est techniquement possible, mais très peu probable (probabilité très faible). Enfin, sur une pièce équilibrée, on a autant de chance de tomber sur pile que sur face (probabilité de $\\frac{1}{2}$)."
+  }
+]

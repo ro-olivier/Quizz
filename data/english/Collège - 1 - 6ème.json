@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Lequel des mots suivants n'est pas un mot interrogatif ?",
+    "answers": {
+     "a": "How",
+     "b": "Who",
+     "c": "That",
+     "d": "Which"
+    },
+    "correctAnswer": "c",
+    "explanation": "'How' signifie 'comment', 'who' signifie 'qui', 'which' signifie 'lequel'. L'intrus est 'that' qui veut dire 'ça'."
+  },  
+  {
+    "question": "Comment demande-t-on 'Quelle heure est-il ?' en anglais ?",
+    "answers": {
+     "a": "How is the time?",
+     "b": "What time is it?",
+     "c": "When are we?",
+     "d": "What hour is it?"
+    },
+    "correctAnswer": "b",
+    "explanation": "A retenir ! Et attention à ne pas dire 'What time <b>it is</b>?' mais bien 'What time <b>is it</b>?' car l'anglais utilise aussi l'inversion sujet-verbe pour poser des questions, comme le français (on dit 'quelle heure est-il ?' et pas 'quelle heure il est?')."
+  },  
+  {
+    "question": "Répondez à la phrase suivante : 'Are you hungry?'",
+    "answers": {
+     "a": "Yes, I are!",
+     "b": "Yes, I have!",
+     "c": "Yes, I am!",
+     "d": "Yes, I has!"
+    },
+    "correctAnswer": "c",
+    "explanation": "Le verbe 'être' à la première personne du singulier est le <i>seul</i> verbe de toute la langue anglaise qui se conjugue différemment des autres ! On dit 'I am, you are, she/he/it is, we are, you are, they are'. Pour tous les autres verbes, la forme de la première personne du singulier est la même que les autres, seule la forme de la troisième personne du singulier change."
+  },  
+  {
+    "question": "Trouvez la question qui correspond à la réponse 'No, they don't.'",
+    "answers": {
+     "a": "Do they like cheese?",
+     "b": "Are they here yet?",
+     "c": "Do you play chess?",
+     "d": "Are you sure?"
+    },
+    "correctAnswer": "a",
+    "explanation": "Dans l'immense majorité des cas, en anglais, on répond avec le même auxiliaire que celui qui a servi à poser la question. Ici on répond avec 'don't, qui est la forme négative de 'do'. On peut donc éliminer les questions qui utilisent 'are' (auxilliaire être). Ensuite, la réponse utilise le pronom 'they' (ils) donc la question doit aussi l'employer."
+  },  
+  {
+    "question": "Les mots suivants forment une phrase quand ils sont mis dans le bon ordre, à vous de le trouver : 'black, is, my, where, suit'",
+    "answers": {
+     "a": "My black suit is where?",
+     "b": "Where my black suit is?",
+     "c": "My suit black where is?",
+     "d": "Where is my black suit?"
+    },
+    "correctAnswer": "d",
+    "explanation": "Les questions en anglais suivent généralement le schéma 'mot interrogatif (where) + auxiliaire/verbe (is) + object (my black suit)."
+  },
+  {
+    "question": "Completez la phrase suivante : 'Brian is in the kitchen, he is cooking a very nice ______.'",
+    "answers": {
+     "a": "time",
+     "b": "meal",
+     "c": "place",
+     "d": "game"
+    },
+    "correctAnswer": "b",
+    "explanation": "'A meal' signifie un repas."
+  }
+]

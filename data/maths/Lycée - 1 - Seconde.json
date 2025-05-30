@@ -1,0 +1,89 @@
+[
+  {
+    "question": "Sur quel ensemble la fonction $f(x) = \\frac{1}{3x}$ est elle définie ?",
+    "answers": {
+     "a": "Sur $\\mathbb{R}$",
+     "b": "Sur $[0, +∞[$",
+     "c": "Sur $]0, +∞[$",
+     "d": "Sur $\\mathbb{R}^{*}$"
+    },
+    "correctAnswer": "d",
+    "explanation": "La fonction $f$ est proportionnelle à la fonction inverse ($1/x$), elle a donc le même ensemble de définition. L'ensemble de définition de la fonction inverse est $\\mathbb{R}^{*}$, c'est-à-dire $\\mathbb{R}$ privé de $0$, qu'on peut également écrire $]-∞, 0[ \\cup ]0, +∞[$."
+  },
+  {
+    "question": "Soit $g$ une fonction définie sur $\\mathbb{R}$. Supposons que $g$ est paire, strictement croissante sur l'intervale $[0, +∞[$, et que $g(-3) = 0$. Laquelle des propositions suivantes n'est <b>pas</b> vraie ?",
+    "answers": {
+     "a": "$g(3) = 0$",
+     "b": "La courbe représentant $g(x)$ en fonction de $x$ admet une symétrie verticale d'axe $x = 0$",
+     "c": "Pour tout $x > 3$, $g(x) > 0$",
+     "d": "$g$ est strictement croissante sur l'intervalle $]-∞, -3]$"
+    },
+    "correctAnswer": "d",
+    "explanation": "Procédons par élimination et tentons de vérifier chaque proposition.<br><br>C'est la définition d'une fonction paire : si $g$ est paire, alors $g(x) = g(-x)$ pour tout $x$ de l'ensemble de définition de $g$. Ainsi, si $g(-3) = 0$ alors $g(3) = 0$.<br><br>C'est une caractéristique d'une fonction paire : si on prend un point de la courbe représentant $g(x)$ par rapport à $x$, quel que soit la valeur de $x$ on peut trouver un autre point à la même ordonnée à l'abscisse $-x$ (car $g(x) = g(-x)$). Il y a donc bien symétrie par rapport à l'axe des ordonnées, soit une symétrie verticale d'axe $x = 0$.<br><br>Comme g est strictement croissante sur $[0, +∞[$, et que $g(-3) = 0 = g(3)$ (première proposition, démontrée vraie), alors pour tout $x > 3$, $g(x) > g(3)$ donc $g(x) > 0$.<br><br>Par élimination c'est donc la dernière proposition qui est fausse."
+  },
+  {
+    "question": "Laquelle de ces équations est une identité remarquable de la trigonométrie ?",
+    "answers": {
+     "a": "$\\cos^{2}(α) + \\sin^{2}(α) = -1$",
+     "b": "$\\cos^{2}(α) + \\sin^{2}(α) = 1$",
+     "c": "$\\cos^{2}(α) + \\sin^{2}(α) = 0$",
+     "d": "$\\cos^{2}(α) - \\sin^{2}(α) = 1$"
+    },
+    "correctAnswer": "b",
+    "explanation": "A connaître par coeur, mais savez-vous la démontrer ?<br>Indice : dessinez un cercle de rayon, représentez le cosinus et le sinus d'un angle quelconque et utilisez le théorème de Pythagore !"
+  },
+  {
+    "question": "Soit un vecteur $\\vec{u} = (3, 2, -1)$. Lequel de ces vecteurs est colinéaire à $u$ ?",
+    "answers": {
+     "a": "$\\vec{v} = (1, 1 ,-1)$",
+     "b": "$\\vec{v} = (6, 3, -3)$",
+     "c": "$\\vec{v} = (9, 6, -3)$",
+     "d": "$\\vec{v} = (-9, 6, -3)$"
+    },
+    "correctAnswer": "c",
+    "explanation": "On peut voir que les coordonnées du vecteur $(9, 6, -3)$ sont proportionnelles à celle du vecteur $\\vec{u}$ : ces deux vecteurs sont donc colinéaires."
+  },
+  {
+    "question": "Soit deux points $A = (3, 0)$ et B = $(-1, 1)$. Calculez la distance entre ces deux points dans un repère orthonormé.",
+    "answers": {
+     "a": "$\\sqrt{17}$",
+     "b": "$4$",
+     "c": "$\\sqrt{4}$",
+     "d": "$17$"
+    },
+    "correctAnswer": "a",
+    "explanation": "On applique la formule de calcul des distances $\\sqrt{(x_A - x_B)^{2} + (y_A - y_B)^{2}}$.<br>On a donc une distance entre les points A et B de $\\sqrt{(3 - -1)^{2} + (0 - 1)^{2}} = \\sqrt{4^{2} + -1^{2}} = \\sqrt{16 + 1}$.<br>Remarque: vous avez peut-être appris la formule avec les coordonnées des points A et B inversées : observez que cela ne change rien au résultat !"
+  },
+  {
+    "question": "Simplifiez au maximum l'expression suivante : $4y^{3} + 4x^{2}y - 8xy$.",
+    "answers": {
+     "a": "$(x^{2} + 4y)$",
+     "b": "$4y(x - y)^{2}$",
+     "c": "$2$",
+     "d": "$4(x + y)^{2}$"
+    },
+    "correctAnswer": "b",
+    "explanation": "On peut commencer par observer que tous les termes de l'expression contiennent au moins une puissance de $y$, on peut donc factoriser par cette inconnue. On obtient $y(4y^{2} + 4x^{2} - 8xy)$. On observe ensuite qu'on peut factoriser par $4$ et faire apparaître l'identité remarquable $x^{2} -2xy + y^{2} = (x - y)^{2}$, et on obtient ainsi la seconde proposition."
+  },
+    {
+    "question": "Laquelle de ces proposition est vraie ?",
+    "answers": {
+     "a": "Le carré d'un nombre pair est impair.",
+     "b": "Le carré d'un nombre impair est impair.",
+     "c": "Le carré d'un nombre impair est pair.",
+     "d": "Le carré d'un nombre impair n'existe pas, seuls les nombres paires peuvent être mis au carré."
+    },
+    "correctAnswer": "b",
+    "explanation": "Un nombre impair peut s'écrire $n = 2k + 1$ avec $k$ un entier positif.<br>Calculons son carré (en utilisant l'identité remarquable $(x + y)^{2}$) : $n^{2} = (2k + 1)^{2} = 4k^{2} + 2*2k + 1 = 4(k^{2} + k) + 1 = 2(2(k^{2} + k)) + 1$.<br>On peut donc écrire $n^{2}$ sous la forme $2k' + 1$ (avec $k' = 2(k^{2} + k)$) donc $n^{2}$ est impair."
+  },
+  {
+    "question": "Supposons une expérience où un joueur tire au hasard deux balles de couleurs dans une urne, l'une après l'autre (sans remettre la première balle tirée dans l'urne). L'urne contient 4 balles rouges et 2 balles vertes. Quelle est la probabilité pour le joueur de tirer les deux balles vertes ?",
+    "answers": {
+     "a": "2 chances sur 6",
+     "b": "2 chance sur 15",
+     "c": "1 chance sur 15"
+    },
+    "correctAnswer": "c",
+    "explanation": "Lors du premier tirage, le joueur a $2/6$ chances de tirer une première balle verte. Puis lors du second tirage, il ne reste qu'une balle verte et 4 balles rouges, il a donc $1/5$ chances de tirer la balle verte restante. Le joueur a donc $(2/6) * (1/5) = 2/30 = 1/15$ chances de tirer les deux balles vertes successivement."
+  }
+]
