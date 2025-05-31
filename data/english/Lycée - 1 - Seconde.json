@@ -1,90 +1,68 @@
 [
   {
-    "question": "",
+    "question": "Complétez la phrase suivante (qui signifie 'Madame Thomson est indisponible actuellement') : 'Madam Tompson is ___________ ___________.",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "actually unavailable",
+     "b": "currently undisponible",
+     "c": "actually undisponible",
+     "d": "currently unavailable"
     },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "d",
+    "explanation": "Le mot 'actually' est un faux-ami qui ne signifie pas 'actuellement' mais 'en fait', ou 'en réalité', l'équivalent du français 'actuellement' se dit 'currently'. Les mots 'disponible' ou 'undisponible' n'existent pas, on dit utilise 'available/unavailable' pour faire référence à la disponibilité d'une personne (ou d'un service, d'une machine, etc.).."
   },  
   {
-    "question": "",
+    "question": "Que signifie le mot de liaison 'As a matter of fact...' ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "en fait",
+     "b": "dans la plupart des cas",
+     "c": "principalement",
+     "d": "contrairement à"
     },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "a",
+    "explanation": "'Dans la plupart des cas' se dit 'in most cases', 'principalement' se dit 'mainly' et 'contrairement à' sera 'contrary to'.<br><a href='https://translate.google.com/?sl=en&tl=fr&text=As%20a%20matter%20of%20fact%2C%20I%20am%20a%20very%20good%20Chinese%20speaker.%0AIn%20most%20cases%20people%20don%27t%20speak%20it%20properly.%0AThis%20is%20mainly%20because%20it%20is%20a%20very%20difficult%20language%0AContrary%20to%20English%20you%20cannot%20learn%20it%20once%20you%27re%20an%20adult!&op=translate' style='text-decoration: underline;'>Exemples</a>"
   },  
   {
-    "question": "",
+    "question": "Comment diriez-vous 'Arthur m'a dit qu'il rentrait bientôt.'",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "Arthur said to me that he would come home soon.",
+     "b": "Arthur told me that he would come home soon.",
+     "c": "Arthur said me that he would come home soon.",
+     "d": "Arthur told to me that he would come home soon."
     },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "b",
+    "explanation": "'To tell (/told/told)'' et 'to say (/said/said)' sont deux verbes qui signifie 'dire' mais qui ne s'emploient pas exactement de la même façon. On dit 'To say something to someone' et on dit 'To tell someone something'.<br><a href='https://translate.google.com/?sl=en&tl=fr&text=I%20told%20you%20yesterday%20that%20I%20had%20class%20today.%0A%0AShush%2C%20the%20President%20is%20going%20to%20say%20something!&op=translate' style='text-decoration: underline;'>Exemples<a>"
   },  
   {
-    "question": "",
+    "question": "Lequel de ces mots n'est pas un synonyme de 'to yell' ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "to cry",
+     "b": "to wail",
+     "c": "to yelp",
+     "d": "to shout"
     },
-    "correctAnswer": "",
-    "explanation": ""
-  },  
-  {
-    "question": "",
-    "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
-    },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "b",
+    "explanation": "'To wail' signifie 'gémir' sans forcément de notion de volume élevé. 'To cry' signifie bien sûr 'pleurer' mais peut aussi avoir le sens de 'crier' notamment dans l'expression 'To cry for help' (crier à l'aide). Enfin 'to shout' est un des nombreux synonymes de 'to yell', tandis s'emploie avec la préposition 'at' si on veut préciser 'sur quelqu'un/quelque chose'.<br><a href='https://translate.google.com/?sl=en&tl=fr&text=Please%20don%27t%20yell%2C%20this%20is%20a%20library!%0AThe%20poor%20thing%20was%20wailing%20loudly.%0AHe%20was%20yelping%20his%20heart%20out.%0ADon%27t%20shout%20at%20him%2C%20he%27s%20done%20nothing%20wrong!&op=translate' style='text-decoration: underline;>Exemples</a>"
   },
   {
-    "question": "",
+    "question": "Quelle est l'erreur dans la phrase suivante : 'She is going at school tomorrow, but not today.",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "Le verbe 'to go' ne peut pas se mettre au présent en -ing. La phrase correcte est : 'She <b>goes</b> at school tomorrow, but no today'",
+     "b": "Le mot 'today' s'écrit en deux mots : 'to day'. La phrase correcte est donc 'She is going at school tomorrow, but no <b>to day</b>.'",
+     "c": "Le verbe 'aller' se dit 'going to' et pas 'going at'. La phrase correcte est : 'She is going <b>to</b> school tomorrow, but not today.",
+     "d": "Les 3 erreurs ci-dessus sont vraies ! La phrase correcte est 'She goes to school tomorrow, but no to day."
     },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "c",
+    "explanation": "Attention à bien apprendre les verbes avec les prépositions qui les accompagnent (et éventuellement le sens associé). On dit 'to go to a place' ou bien 'to go somewhere' mais jamais 'to go at a place' ou 'to go at somewhere' ou 'to go to somewhere'."
   },  
   {
-    "question": "",
+    "question": "Que signifie 'eleventh' ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "onze",
+     "b": "elfe",
+     "c": "élevé",
+     "d": "onzième"
     },
-    "correctAnswer": "",
-    "explanation": ""
-  },
-  {
-    "question": "",
-    "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
-    },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "d",
+    "explanation": "Pour former les nombres ordinaux on leur ajoute le suffixe -th... sauf pour les trois premiers qu'on transforme un peu plus : 'first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh, twelfth, thirteenth...'"
   }
 ]

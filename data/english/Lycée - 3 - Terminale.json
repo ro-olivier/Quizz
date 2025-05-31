@@ -1,90 +1,68 @@
 [
   {
-    "question": "",
+    "question": "Laquelle de ces phrases est correcte ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "If she had had a mobile phone, she could have called for help.",
+     "b": "If she have had a mobile phone, she could have called for help.",
+     "c": "If she would have a mobile phone, she could have called for help.",
+     "d": "If she had a mobile phone, she could have called for help."
     },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "a",
+    "explanation": "Il s'agit d'une phrase au conditionnel (comme le montre le 'if' au début de la phrase), plus précisément de 'third conditional' qui est utilisé pour faire référence à une situation dans le passé mais qui n'a pas eu lieu. Il se construit sur le schéma 'if + past perfect, would have + past participle'. Dans l'exemple ci-dessus, le verbe au 'pas perfect' est le verbe avoir, d'où la répétition de 'had'."
+  },
+  {
+    "question": "Quelle est la différence entre 'hole' et 'whole' ?",
+    "answers": {
+     "a": "Aucune, les deux signifient la même chose, mais se prononcent légèrement différemment.",
+     "b": "Les deux n'ont pas la même signification, et se prononcent légèrement différemment.",
+     "c": "Aucune, les deux signifient la même chose, et se prononcent pareil.",
+     "d": "Les deux n'ont pas la même signification, mais se prononcent pareil."
+    },
+    "correctAnswer": "d",
+    "explanation": "'A hole' est 'un trou' tandis que 'whole' est un adjectif signifiant 'entier, complet'.<br><a href='https://translate.google.com/?sl=en&tl=fr&text=A%20hole%20in%20the%20ground.%0AI%20ate%20the%20whole%20cake.&op=translate' style='text-decoration: underline;'>Exemples</a>"
   },  
   {
-    "question": "Lequel de ces verbes irréguliers est faux en anglais britannique mais correct en anglais américain ?",
+    "question": "Que signifie 'I wonder what he's doing now.' ?",
     "answers": {
-     "a": "dream/dreamt/dreamt",
-     "b": "dreamed/dreamed/dreamed",
-     "c": "meant/meant/meant",
-     "d": "mean/meaned/meaned"
+     "a": "Je pense qu'il a eu raison de le faire maintenant.",
+     "b": "Je crois qu'il va le faire maintenant.",
+     "c": "Je me demande ce qu'il faire maintenant.",
+     "d": "Je suis impressionné par ce qu'il fait maintenant."
     },
-    "correctAnswer": "b",
-    "explanation": ""
+    "correctAnswer": "c",
+    "explanation": "'To wonder' est un verbe un peu piégeux car il signifie 'Se demander' tandis que le nom 'a wonder' signifie 'une merveille'. On parle par exemple des 'Seven Wonders of the (Ancien) World' pour parler des '7 Merveilles du monde (antique)."
+  },  
+  {
+    "question": "Lequel de ces superlatifs est incorrect ?",
+    "answers": {
+     "a": "Wetest",
+     "b": "Truest",
+     "c": "Most expensive",
+     "d": "Angriest"
+    },
+    "correctAnswer": "a",
+    "explanation": "Pour les adjectifs courts et se terminant par une consonne, on double cette consomme avant d'ajouter le suffixe -est pour former le superlatif. 'Truest' est correct, même si 'most true' peut se voir aussi. 'Expensive' est un adjectif long (2 syllabes ou plus), son superlatif se forme donc avec 'most', tandis que 'angry' se termine par un -y qui se voit transformer par en un -i avant l'ajout du suffixe -est du superlatif.<br><a href='https://translate.google.com/?sl=en&tl=fr&text=It%20was%20raining%20so%20hard%2C%20I%20was%20the%20wettest%20I%20ever%20was.%0AThese%20are%20the%20truest%20words%20you%27ve%20ever%20spoken%20to%20me.%0AIt%27s%20the%20most%20expensive%20dress%20I%20own.%0AMom%20was%20the%20angriest%20I%27ve%20ever%20seen%20her.&op=translate' style='text-decoration: underline;'>Exemples</a>"
   },   
   {
-    "question": "",
+    "question": "Que signifie l'expression 'A white lie' ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "C'est un mensonge à propos de la couleur d'un objet, comme un vêtement. ",
+     "b": "C'est un mensonge particulièrement grave, avec des conséquences importantes.",
+     "c": "C'est un mensonge pas très grave, plutôt trivial ou avec de bonnes intentions.",
+     "d": "C'est un mensonge qui s'avère finalement être une vérité."
     },
-    "correctAnswer": "",
-    "explanation": ""
-  },  
-  {
-    "question": "",
-    "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
-    },
-    "correctAnswer": "",
-    "explanation": ""
-  },  
-  {
-    "question": "",
-    "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
-    },
-    "correctAnswer": "",
+    "correctAnswer": "c",
     "explanation": ""
   },
   {
-    "question": "",
+    "question": "Mettez la phrase suivante à la voix passive : 'The President is negotiating new deals.'",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "New deals are being negotiated by the President.",
+     "b": "New deals are negotiating by the President.",
+     "c": "New deals was negotiated by the President.",
+     "d": "New deals have being negotiated by the President"
     },
-    "correctAnswer": "",
-    "explanation": ""
-  },  
-  {
-    "question": "",
-    "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
-    },
-    "correctAnswer": "",
-    "explanation": ""
-  },
-  {
-    "question": "",
-    "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
-    },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "a",
+    "explanation": "La voix passive se construit avec le verbe 'to be' ('être') conjugué au même temps que le verbe principal à la voix active, puis le verbe principal à la voix active mis au participe passé.<br>Ici, à la voix active le verbe 'to negotiate' est au présent -ing (appelé 'present progressive' en anglais), on met donc 'are being' (car on met le verbe 'to be' au présent -ing ! On a donc l'auxiliaire être d'abord (pour former le présent -ing) puis le verbe conjugué (toujours 'être' pour former la voix passive) avec sa forme -ing (c'est-à-dire le participe présent) On ajoute enfin le verbe principal de la forme active dans sa forme au participe passé."
   }
 ]

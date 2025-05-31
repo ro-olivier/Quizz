@@ -1,90 +1,68 @@
 [
   {
-    "question": "",
+    "question": "Que signifie le mot de liaison 'despite' ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "malgré / en dépit de",
+     "b": "par conséquent / donc",
+     "c": "en plus / et",
+     "d": "tandis que / alors que"
     },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "a",
+    "explanation": "'Par conséquent / donc' se dit 'as a result' ou 'thus', 'en plus / et' se dit 'in addition' ou simplement 'and', et 'tandis que / alors que' sera plutôt 'while'.<br><a href='https://translate.google.com/?sl=en&tl=fr&text=Despite%20the%20rain%2C%20he%20kept%20running.%0AIt%20was%20raining%2C%20thus%20the%20road%20was%20slippery.%0AHe%20had%20a%20lot%20to%20do%2C%20and%20he%20was%20late.%0AShe%20had%20arrived%20already%2C%20while%20he%20hadn%27t.&op=translate' style='text-decoration: underline;'>Exemples</a>"
   },  
   {
-    "question": "",
+    "question": "Lequel de ces mots pourrait être employé à la place du verbe 'to eat' sans pour autant avoir exactement le même sens ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "to pour",
+     "b": "to cut",
+     "c": "to devour",
+     "d": "to bake"
     },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "c",
+    "explanation": "'To devour' signifie 'dévorer', c'est donc bien 'manger', mais avec grand appétit. 'To pour' signifie 'verser' (un liquide), 'to cut' veut dire 'couper' tandis que 'to bake' veut dire '(faire) cuire'."
   },  
   {
-    "question": "",
+    "question": "Lequel de ces verbes irréguliers est incorrect ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "read/read/read",
+     "b": "let/let/let",
+     "c": "beat/beat/beat",
+     "d": "spread/spread/spread"
     },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "c",
+    "explanation": "Il existe quelques verbes irréguliers qui ne changent pas du tout entre leurs 3 formes. 'To beat' (battre) n'en fait pas partie : beat/beat/beat<b>en</b>. Les trois autres propositions sont correctes : 'to let' ('laisser') et 'to spread' ('se propager', 'étaler') et 'to read' ('lire'). Attention à ce dernier, il s'écrit pareil dans les 3 formes, mais les deux formes au passé se pronocent comme 'red' (la couleur rouge) !<br><a href='https://translate.google.com/?sl=en&tl=fr&text=We%20don%27t%20want%20the%20disease%20to%20spread.%0AThe%20disease%20has%20spread%20very%20fast.%0A%0AHe%20reads%20his%20son%20a%20story%20every%20evening.%0AI%20know%20this%20book%2C%20I%20read%20it%20when%20I%20was%20a%20kid.%0A%0AHe%20beats%20me%20at%20chess%20every%20time.%0AHaha!%20I%27ve%20beaten%20you%20this%20time!%0A%0ADon%27t%20let%20me%20keep%20you.%0AWe%20let%20him%20go%20last%20month%2C%20unfortunately.&op=translate' style='text-decoration: underline;>Exemples</a>"
   },  
   {
-    "question": "",
+    "question": "Vous recevez un anglophone chez vous et lui proposez de boire quelque chose. Il vous répond 'I can have coffee, but I'd rather have tea if you have some.' Que lui servez-vous ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "Un thé !",
+     "b": "Un café !",
+     "c": "Rien du tout, il ne veut rien.",
+     "d": "Les deux !"
     },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "a",
+    "explanation": "L'expression 'I would rather' signifie 'Je préfère'. Le 'would' peut s'abrévier en 'd à l'oral (c'est même plutôt courant). Ici, votre invité vous a donc dit qu'il pouvait prendre un café, mais qu'il préférait un thé si vous en aviez. Servez donc lui un thé !"
   },  
   {
-    "question": "",
+    "question": "Comment dit-on correctement 'L'anglais est aussi facile à apprendre que le français' ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "English is easy like French to learn.",
+     "b": "English is as easy to learn as French.",
+     "c": "English is easy the same as French.",
+     "d": "English is easy to learn as French."
     },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "b",
+    "explanation": "Pour exprimer l'égalité vis à vis d'un adjectif on utilise la formulation '[suject] is as [adjective] as [object]'. Et pour une fois, pas de différence entre les adjectifs courts et longs, c'est toujours le même schéma !"
   },
   {
-    "question": "",
+    "question": "Laquelle de ces phrases exprime une possibilité avec la plus <b>faible</b> probabilité ?",
     "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
+     "a": "He said he may be going.",
+     "b": "He said he will be going.",
+     "c": "He said he should be going.",
+     "d": "He said he might be going."
     },
-    "correctAnswer": "",
-    "explanation": ""
-  },  
-  {
-    "question": "",
-    "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
-    },
-    "correctAnswer": "",
-    "explanation": ""
-  },
-  {
-    "question": "",
-    "answers": {
-     "a": "",
-     "b": "",
-     "c": "",
-     "d": ""
-    },
-    "correctAnswer": "",
-    "explanation": ""
+    "correctAnswer": "d",
+    "explanation": "Il existe plusieurs façons d'exprimer la possibilité d'un événement en anglais, avec une probabilité variable selon l'expression. Pour exprimer une probabilité nulle on utilise 'I will not [do something]'. Ensuite, par probabilité croissante on utilise : I might [do something] / I could [do something] / I may [do something] / I should [do something] / I will [do something]. On peut également trouver le présent -ing ('I am doing something') pour exprimer la certitude quand quelque chose est certain et planifié, par exemple 'I'm playing tennis with Helen tomorrow at 8am."
   }
 ]
