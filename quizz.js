@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function animateCollapse(wrapper, target) {
     currentHeight = wrapper.scrollHeight;
-    console.log('animateCollapse called ' + wrapper.id + ' ----- from ' + currentHeight + ' to ' + target);
+    //console.log('animateCollapse called ' + wrapper.id + ' ----- from ' + currentHeight + ' to ' + target);
     wrapper.style.maxHeight = currentHeight + 'px';
     void wrapper.offsetHeight;
     requestAnimationFrame(() => {
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     currentHeight = wrapper.scrollHeight;
     wrapper.style.maxHeight = currentHeight + 'px';
     void wrapper.offsetHeight;
-    console.log('animateCollapse called ' + wrapper.id + ' ----- from ' + currentHeight + ' to ' + currentHeight);
+    //console.log('animateCollapse called ' + wrapper.id + ' ----- from ' + currentHeight + ' to ' + currentHeight);
     requestAnimationFrame(() => {
       wrapper.style.maxHeight = wrapper.scrollHeight + 'px';
     });
@@ -217,7 +217,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       const explanationBlock = slides[questionNumber].querySelector(".explanation");
-      explanationBlock.classList.remove("hidden");
+      if (explanationBlock.innerHTML.length > 0) explanationBlock.classList.remove("hidden");
 
       if (userAnswer === currentQuestion.correctAnswer) {
         numCorrect++;
@@ -267,7 +267,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll('.subject-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      console.log('subject button clicked');
       document.querySelectorAll('.subject-btn').forEach(b => {
         b.classList.remove('ring-2', 'ring-blue-400', 'bg-blue-100');
       });
@@ -280,13 +279,11 @@ document.addEventListener("DOMContentLoaded", () => {
       startButton.disabled = true;
       
       requestAnimationFrame(() => {
-        console.log('requestAnimationFrame called #1');
         animateCollapse(levelWrapper, "0px");
       });
 
       const onTransitionEnd = () => {
         initialTransitionFired = true;
-        console.log('onTransitionEnd called #1');
         levelWrapper.removeEventListener('transitionend', onTransitionEnd);
 
         levelSection.querySelectorAll('.flex').forEach(div => {
@@ -297,7 +294,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
         loadLevels(selectedSubject).then(() => {
           requestAnimationFrame(() => {
-            console.log('requestAnimationFrame called #2');
             animateExpand(levelWrapper);
           });
         });
