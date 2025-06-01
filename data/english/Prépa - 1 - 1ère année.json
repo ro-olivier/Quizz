@@ -15,11 +15,11 @@
     "answers": {
      "a": "dream/dreamt/dreamt",
      "b": "dreamed/dreamed/dreamed",
-     "c": "meant/meant/meant",
+     "c": "mean/meant/meant",
      "d": "mean/meaned/meaned"
     },
     "correctAnswer": "b",
-    "explanation": "L'anglais nord-américain, qu'on dit anglais international, se distingue de l'anglais britannique sur quelques points, notamment quelques verbes irréguliers qui deviennent réguliers en anglais américain. Une langue parlée est vivante, donc elle évolue, par définition ! La forme 'dream/dreamt/dreamt' est la forme britannique tandis que la forme régulière 'dreamed' se retrouve en anglais nord-américain"
+    "explanation": "L'anglais nord-américain, qu'on dit anglais international, se distingue de l'anglais britannique sur quelques points, notamment quelques verbes irréguliers qui deviennent réguliers en anglais américain. Une langue parlée est vivante, donc elle évolue, par définition ! La forme 'dream/dreamt/dreamt' est la forme britannique tandis que la forme régulière 'dreamed' se retrouve en anglais nord-américain. Quant à 'to mean' ses formes au passé sont meant/meant dans toutes les formes d'anglais."
   },
   {
     "question": "Que signifie la phrase 'Would you like a second helping?'",
