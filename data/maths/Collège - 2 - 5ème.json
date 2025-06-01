@@ -11,23 +11,12 @@
     "explanation": "Pour réaliser cette multiplication de tête on peut commencer par ramener les deux nombres à multiplier à des valeurs entières.<br>Ainsi on a $0.215 * 3.2 = 0.001 * 215 * 0.1 * 32 = 215 * 32 * 0.0001$.<br>On réalise ensuite le calcul $215 * 32$, par exemple en observant que cela équivaut à calculer $215 * 30 + 215 * 2 = 215 * 3 * 10 + 215 * 2 = 645 * 10 + 430 = 6450 + 430 = 6880$.<br>On réintègre ensuite les virgules en appliquant le facteur $0,0001$ mis de côté lors de la première étape. On obtient alors $6880 * 0.0001 = 0.688$."
   },
   {
-    "question": "Quelle est la décomposition du nombre 84 en facteurs premiers ?",
-    "answers": {
-     "a": "$\\{1,2,3,4,7,12,21,42\\}$",
-     "b": "$\\{2,3,7\\}$",
-     "c": "$\\{8,4\\}$",
-     "d": "$\\{2,2,3,7\\}$"
-    },
-    "correctAnswer": "d",
-    "explanation": "Pour décomposer un nombre en ses facteurs premiers, on cherche à le diviser au maximum par chaque nombre premier successivement.<br>Ici, $84$ peut être diviser par $2$, cela donne $42$, on a donc $2$ comme premier facteur premier de $84$.<br>Ensuite, $42$ est encore divisible par $2$ (on obtient $21$) donc on a un second $2$ comme facteur premier de $84$.<br>Enfin, $21$ est égal à $3 * 7$ qui sont tous les deux premiers, c'est donc terminé.<br>Les facteurs premiers de $84$ sont donc $\\{2,2,3,7\\}$."
-  },
-  {
     "question": "Calculer de tête $7a + 13b$ pour $a = 3$ et $b = 2$.",
     "answers": {
-     "a": "47",
-     "b": "34",
-     "c": "21",
-     "d": "13"
+     "a": "$47$",
+     "b": "$34$",
+     "c": "$21$",
+     "d": "$13$"
     },
     "correctAnswer": "a",
     "explanation": "On remplace $a$ par $3$ et $b$ par $2$ dans l'expression $7a + 13b$, cela donne $7 * 3 + 13 * 2 = 21 + 26 = 47$."
@@ -64,5 +53,16 @@
     },
     "correctAnswer": "c",
     "explanation": "Simplifier une expression signifie la rendre plus claire, souvent en regroupant ensemble les termes comportant les mêmes inconnues (ici $a$ et $b$). On peut commencer par simplifier les parenthèses puis regrouper tout ce qui peut l'être, et éventuellement factoriser ce qui peut l'être :<br>$6 * b + 2 * a - 2 * (b - 4 * a) - 2 * a = 6 * b + 2 * a - 2 * b + 8 * a - 2 * a)$<br>$= 2a + 8a - 2a + 6b - 2b$<br>$= 8a - 4b$<br>$= -4(2a + b)$."
+  },
+  {
+    "question": "Exprimer le nombre suivant sous la forme décimale : $X = \\frac{3}{5} + 2.5 + \\frac{22}{50}$",
+    "answers": {
+     "a": "$3.54$",
+     "b": "$4.53$",
+     "c": "$5.34$",
+     "d": "$.534$"
+    },
+    "correctAnswer": "a",
+    "explanation": "Remarquons déjà que $2.5 = \\frac{5}{2}$. Il s'agit ensuite de faire l'addition de trois nombres écrits sous leur forme rationnelle (c'est-à-dire des fractions) et pour faire cela, on utilise la technique de la mise au même dénominateur.<br>On multiplie d'abord entre eux les différents dénominateurs pour trouver le plus petit multiple commun : $5*2*50 = 500$. On va donc modifier chaque fraction pour l'écrire avec un dénominateur égale à $500$. Pour cela il faut multiplier la chaque fraction par le dénominateur des deux autres.<br>On a donc $X = \\frac{3*2*50 + 5*5*50 + 22*5*2}{500} = \\frac{300 + 1250 + 220}{500} = \\frac{1770}{500}$.<br>Il va ensuite falloir transformer cette fraction en nombre décimal. Pour cela remarquons d'abord que $1770 = 3*500 + 270$ donc $X = 3 + \\frac{270}{500}$ On peut réduire la fraction restante en $\\frac{27}{50}$ puis remarquer qu'elle est égale à $\\frac{20 + 7}{50} = \\frac{2}{5} + \\frac{7}{50} = 0.4 + \\frac{7}{50}$ et $\\frac{7}{50} = \\frac{5 + 2}{50} = \\frac{5}{50} + \\frac{2}{50} = 0.1 + 0.04 = 0.14$.<br>On a donc $X = 3 + 0.4 + 0.14 = 3.54$."
   }
 ]

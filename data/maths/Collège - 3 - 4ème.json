@@ -1,24 +1,68 @@
 [
   {
-    "question": "Réduire l'expression suivante : A = 16 + 3x – 3y + 7y – 4x",
+    "question": "Réduire l'expression suivante : $A = 16 + 3x – 3y + 7y – 4x$",
     "answers": {
-     "a": "A = 19",
-     "b": "A = 16 + 7x + 10y",
-     "c": "A = 16 - x + 4y",
-     "d": "A = 4y - x"
+     "a": "$A = 19$",
+     "b": "$A = 16 + 7x + 10y$",
+     "c": "$A = 16 - x + 4y$",
+     "d": "$A = 4y - x$"
     },
     "correctAnswer": "c",
-    "explanation": "Pour réduire une expression comprenant des inconnues (ici x et y) on rassemble les termes contenant chaque inconnues séparément.<br>Ainsi le +3x et le -4x deviennent -x, et le -3y et le +7y deviennent +4y.<br>Le 16 est un terme constant qui ne contient pas d'inconnue, il est donc laissé tel quel."
+    "explanation": "Pour réduire une expression comprenant des inconnues (ici $x$ et $y$) on rassemble les termes contenant chaque inconnues séparément.<br>Ainsi le $+3x$ et le $-4x$ deviennent $-x$, et le $-3y$ et le $+7y$ deviennent $+4y$.<br>Le $16$ est un terme constant qui ne contient pas d'inconnue, il est donc laissé tel quel."
       },
   {
-    "question": "Développer au maximum l'expression suivante : B = 4*(x+2)(y-3)",
+    "question": "Développer au maximum l'expression suivante : $B = 4*(x+2)(y-3)$",
     "answers": {
-     "a": "B = 4xy + 8y -12x - 9",
-     "b": "B = -4xy + 12x + 8y + 9",
-     "c": "B = 4x - 4yx + 4y",
-     "d": "B = 9"
+     "a": "$B = 4xy + 8y -12x - 9$",
+     "b": "$B = -4xy + 12x + 8y + 9$",
+     "c": "$B = 4x - 4yx + 4y$",
+     "d": "$B = 9$"
     },
     "correctAnswer": "a",
-    "explanation": "Pour développer une expression on multiplie le contenu de chaque parenthèse (qu'on appelle des \"facteurs\") deux à deux, en distribuant chaque membre à l'intérieur d'un facteur avec ceux d'un autre facteur, et ça dans l'ordre qu'on veut. Un facteur en dehors d'une parenthèse (comme le 4 dans l'expression) sont traitées comme s'ils en étaient une.<br>Ici, on peut par exemple commencer par distribuer le 4 dans la première parenthèse : 4*(x+2) devient donc 4x+8, et on a B = (4x+8)(y-3).<br>Puis on recommence en distribuant les deux parenthèses qui nous restent :<br>B = (4x+8)*y + (4x+3)*(-3) = 4x*y + 8y + 4x*(-3) + 3*(-3).<br>On effectue ensuite les multiplications et on simplifie l'expression en regroupant les termes qui contiennent les mêmes inconnues (s'il y a lieu de le faire), et on obtient notre résultat :<br>B = 4xy + 8y -12x - 9."
-      }
+    "explanation": "Pour développer une expression on multiplie le contenu de chaque parenthèse (qu'on appelle des \"facteurs\") deux à deux, en distribuant chaque membre à l'intérieur d'un facteur avec ceux d'un autre facteur, et ça dans l'ordre qu'on veut. Un facteur en dehors d'une parenthèse (comme le $4$ dans l'expression) sont traitées comme s'ils en étaient une.<br>Ici, on peut par exemple commencer par distribuer le $4$ dans la première parenthèse : $4*(x+2)$ devient donc $4x+8$, et on a $B = (4x+8)(y-3)$.<br>Puis on recommence en distribuant les deux parenthèses qui nous restent :<br>$B = (4x+8)*y + (4x+3)*(-3) = 4x*y + 8y + 4x*(-3) + 3*(-3)$.<br>On effectue ensuite les multiplications et on simplifie l'expression en regroupant les termes qui contiennent les mêmes inconnues (s'il y a lieu de le faire), et on obtient notre résultat :<br>$B = 4xy + 8y -12x - 9$."
+  },
+  {
+    "question": "Quelle particularité(s) a un triangle isocèle ?",
+    "answers": {
+     "a": "La somme de ses trois angles est égale à 180°.",
+     "b": "Il a deux côtés de même longueur, et un troisième côté qu'on appelle généralement 'base'.",
+     "c": "Il a au moins deux angles égaux.",
+     "d": "Les trois propriétés ci-dessus sont vraies !"
+    },
+    "correctAnswer": "d",
+    "explanation": "La première propriétaire est vraie pour tous les triangles en géométrie euclidienne ! Les deux propriétés suivantes sont la définition d'un triangle isocèle (attention, dans la troisième proposition à ne pas vous faire avoir par le 'au moins deux angles égaux' ! Oui, un triangle qui a trois angles égaux est un triangle équilatéral, mais un triangle équilatéral est un cas particulier de triangle isocèle !). "
+  },
+  {
+    "question": "Mettre le nombre suivant sous forme scientifique : $\\frac{873}{1000000}$.",
+    "answers": {
+     "a": "$8.73 * 10^{-4}$",
+     "b": "$873 * 10^{-6}$",
+     "c": "$0.873 * 10^{-3}$",
+     "d": "$0.000873$"
+    },
+    "correctAnswer": "a",
+    "explanation": "La forme scientifique d'un nombre suit toujours le format suivant : $m * 10^{e}$ avec $m$ un nombre entre -10 et 10 (exclus), c'est à dire un nombre ne comportant qu'un seul chiffre avant la virgule, qu'on appelle la <b>mantisse</b>, et $n$ un entier relatif qu'on appelle <b>exposant</b>."
+  },
+  {
+    "question": "Quelle est la décomposition du nombre 84 en facteurs premiers ?",
+    "answers": {
+     "a": "$\\{1,2,3,4,7,12,21,42\\}$",
+     "b": "$\\{2,3,7\\}$",
+     "c": "$\\{8,4\\}$",
+     "d": "$\\{2,2,3,7\\}$"
+    },
+    "correctAnswer": "d",
+    "explanation": "Pour décomposer un nombre en ses facteurs premiers, on cherche à le diviser au maximum par chaque nombre premier successivement.<br>Ici, $84$ peut être diviser par $2$, cela donne $42$, on a donc $2$ comme premier facteur premier de $84$.<br>Ensuite, $42$ est encore divisible par $2$ (on obtient $21$) donc on a un second $2$ comme facteur premier de $84$.<br>Enfin, $21$ est égal à $3 * 7$ qui sont tous les deux premiers, c'est donc terminé.<br>Les facteurs premiers de $84$ sont donc $\\{2,2,3,7\\}$."
+  },
+  {
+    "question": "La figure ci-dessous représente la température d'un four en fonction du temps.<br><center><img src='images/4eme-figure.png' /></center><br>Déterminez la température du four au bout de 8 minutes. Est-ce que le four atteint cette température à un autre moment sur la courbe ?",
+    "answers": {
+     "a": "A 8 minutes, la température du four est de 150°, et c'est la seule fois que cette température est atteinte.",
+     "b": "A 8 minutes, la température du four est de 90°, et elle reste supérieure à 90° mais n'atteint jamais une valeur supérieure à 120° jusqu'à la fin de la courbe.",
+     "c": "A 8 minutes, la température du four est de 150°, et elle est à nouveau à cette température à 11 et 14 minutes.",
+     "d": "A 8 minutes, la température du four est de 90°, et elle reste constante à cette température jusqu'à la fin de l'expérience."
+    },
+    "correctAnswer": "c",
+    "explanation": "Pour déterminer la température à 8 minutes on va chercher la valeur 8 sur l'axe des minutes (l'axe horizontal, celui qu'on appelle 'axe des abscisses') et on trace une droite verticale (flèche rouge) jusqu'à atteindre la courbe. A l'endroit où on la coupe on trace une droite horizontale (flèche bleue) pour rejoindre l'axe des températures (l'axe vertical, celui qu'on appelle 'axe des ordonnées') et on lit la valeur correspondante à l'endroit où la droite qu'on trace coupe l'axe des ordonnées. On lit 150°.<br>Pour déterminer ensuite si la courbe atteint la même valeur (150°) à d'autres moments on trace à nouveau une droite horizontale (flèches vertes) qui coupe l'axe des ordonnées à la valeur 150° et on essaye de voir si elle rencontre la courbe ailleurs. Si c'est le cas, on trouve la valeur pour laquelle c'est le cas en traçant des droites horizontales à ces endroits (flèches mauves). On lit que c'est le cas à 11 et 14 minutes.<br><center><img src='images/4eme-figure-2.png' /></center>"
+  }
 ]
