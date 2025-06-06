@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   const levelWrapper = document.getElementById('level-container-wrapper');
   const scrollAnchor = document.getElementById('scroll-anchor');
+  const followupContainer = document.getElementById('followup-container');
 
   function animateCollapse(wrapper, target) {
     currentHeight = wrapper.scrollHeight;
@@ -239,6 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
     resultsContainer.innerHTML += `Vous avez ${numCorrect} ${reponseLabel} ${correcteLabel} sur ${window.quizzData.length}`;
     if (numCorrect === window.quizzData.length) resultsContainer.innerHTML += ' 🥳';
     resultsContainer.classList.remove("hidden");
+    followupContainer.classList.remove("hidden");
     submitButton.classList.add("hidden");
     finished = true;
 
