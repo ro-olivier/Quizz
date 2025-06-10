@@ -41,15 +41,15 @@
      "d": "to shout"
     },
     "correctAnswer": "b",
-    "explanation": "'To wail' signifie 'gémir' sans forcément de notion de volume élevé. 'To cry' signifie bien sûr 'pleurer' mais peut aussi avoir le sens de 'crier' notamment dans l'expression 'To cry for help' (crier à l'aide). Enfin 'to shout' est un des nombreux synonymes de 'to yell', tandis s'emploie avec la préposition 'at' si on veut préciser 'sur quelqu'un/quelque chose'.<br><a href='https://translate.google.com/?sl=en&tl=fr&text=Please%20don%27t%20yell%2C%20this%20is%20a%20library!%0AThe%20poor%20thing%20was%20wailing%20loudly.%0AHe%20was%20yelping%20his%20heart%20out.%0ADon%27t%20shout%20at%20him%2C%20he%27s%20done%20nothing%20wrong!&op=translate' style='text-decoration: underline;>Exemples</a>"
+    "explanation": "'To wail' signifie 'gémir' sans forcément de notion de volume élevé. 'To cry' signifie bien sûr 'pleurer' mais peut aussi avoir le sens de 'crier' notamment dans l'expression 'To cry for help' (crier à l'aide). Enfin 'to shout' est un des nombreux synonymes de 'to yell', tandis s'emploie avec la préposition 'at' si on veut préciser 'sur quelqu'un/quelque chose'.<br><a href='https://translate.google.com/?sl=en&tl=fr&text=Please%20don%27t%20yell%2C%20this%20is%20a%20library!%0AThe%20poor%20thing%20was%20wailing%20loudly.%0AHe%20was%20yelping%20his%20heart%20out.%0ADon%27t%20shout%20at%20him%2C%20he%27s%20done%20nothing%20wrong!&op=translate' style='text-decoration: underline;'>Exemples</a>"
   },
   {
-    "question": "Quelle est l'erreur dans la phrase suivante : 'She is going at school tomorrow, but not today.",
+    "question": "Quelle est l'erreur dans la phrase suivante : 'She is going at school tomorrow, but not today.'",
     "answers": {
-     "a": "Le verbe 'to go' ne peut pas se mettre au présent en -ing. La phrase correcte est : 'She <b>goes</b> at school tomorrow, but no today'",
-     "b": "Le mot 'today' s'écrit en deux mots : 'to day'. La phrase correcte est donc 'She is going at school tomorrow, but no <b>to day</b>.'",
-     "c": "Le verbe 'aller' se dit 'going to' et pas 'going at'. La phrase correcte est : 'She is going <b>to</b> school tomorrow, but not today.",
-     "d": "Les 3 erreurs ci-dessus sont vraies ! La phrase correcte est 'She goes to school tomorrow, but no to day."
+     "a": "Le verbe 'to go' ne peut pas se mettre au présent en -ing. La phrase correcte est : 'She <b>goes</b> at school tomorrow, but not today.'",
+     "b": "Le mot 'today' s'écrit en deux mots : 'to day'. La phrase correcte est donc 'She is going at school tomorrow, but not <b>to day</b>.'",
+     "c": "Le verbe 'aller' se dit 'going to' et pas 'going at'. La phrase correcte est : 'She is going <b>to</b> school tomorrow, but not today.'",
+     "d": "Les 3 erreurs ci-dessus sont vraies ! La phrase correcte est 'She goes to school tomorrow, but not to day.'"
     },
     "correctAnswer": "c",
     "explanation": "Attention à bien apprendre les verbes avec les prépositions qui les accompagnent (et éventuellement le sens associé). On dit 'to go to a place' ou bien 'to go somewhere' mais jamais 'to go at a place' ou 'to go at somewhere' ou 'to go to somewhere'."
