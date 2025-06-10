@@ -1,3 +1,11 @@
+function goToCoursParticuliers() {
+  sessionStorage.setItem('fromQuizz', quizzStart);
+  sessionStorage.setItem('subject', selectedSubject);
+  sessionStorage.setItem('level', selectedSublevel);
+  sessionStorage.setItem('score', finalScore)
+  window.location.href='https://www.ro-olivier.fr/cours-particuliers';
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const startScreen = document.getElementById("start-screen");
   const mainContainer = document.getElementById("main-container");
@@ -61,7 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
           btn.className = 'hover:bg-blue-600 mt-6 px-6 py-3 bg-gray-400 text-white font-bold rounded-lg w-11/12 max-w-xs mx-auto sm:w-28 sm:mx-2';
           btn.addEventListener('click', () => {
             selectedLevel = filename;
-
+            selectedSublevel = event.target.textContent;
+            
             levelSection.querySelectorAll('button').forEach(btn => {
                btn.classList.remove('bg-blue-500');
                btn.classList.add('bg-gray-400');
@@ -199,7 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function showResults() {
     const answerContainers = quizzContent.querySelectorAll('.answers');
-    let numCorrect = 0;
+    numCorrect = 0;
 
     window.quizzData.forEach((currentQuestion, questionNumber) => {
       const answerContainer = answerContainers[questionNumber];
@@ -243,6 +252,7 @@ document.addEventListener("DOMContentLoaded", () => {
     followupContainer.classList.remove("hidden");
     submitButton.classList.add("hidden");
     finished = true;
+    finalScore = numCorrect / window.quizzData.length;
 
     animateExpand(mainContainer);
 
@@ -254,15 +264,15 @@ document.addEventListener("DOMContentLoaded", () => {
       body: JSON.stringify({
         subject: selectedSubject,
         level: selectedLevel,
-        score: numCorrect
+        score: finalScore
       })
     });
 
 
   }
 
-  let selectedSubject = null;
-  let selectedLevel = null;
+  selectedSubject = null;
+  selectedLevel = null;
   finished = false;
   quizzStart = true;
   initialTransitionFired = false;
@@ -369,5 +379,5 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
   });
-
+    
 });
