@@ -14,7 +14,7 @@
     "question": "Lequel de ces verbes irréguliers est incorrect ?",
     "answers": {
      "a": "read/read/read",
-     "b": "do/done/did",
+     "b": "do/did/done",
      "c": "listen/listen/listen",
      "d": "make/made/made"
     },
