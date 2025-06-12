@@ -1,5 +1,5 @@
 function goToCoursParticuliers() {
-  sessionStorage.setItem('fromQuizz', quizzStart);
+  sessionStorage.setItem('fromQuizz', true);
   sessionStorage.setItem('subject', selectedSubject);
   sessionStorage.setItem('level', selectedSublevel);
   sessionStorage.setItem('score', finalScore)
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           const btn = document.createElement('button');
           btn.textContent = sublevel;
-          btn.className = 'hover:bg-blue-600 mt-6 px-6 py-3 bg-gray-400 text-white font-bold rounded-lg w-11/12 max-w-xs mx-auto sm:w-28 sm:mx-2';
+          btn.className = 'hover:bg-blue-600 mt-6 py-3 bg-gray-400 text-white font-bold rounded-lg w-11/12 max-w-xs mx-auto sm:w-28 sm:mx-2';
           btn.addEventListener('click', () => {
             selectedLevel = filename;
             selectedSublevel = event.target.textContent;
