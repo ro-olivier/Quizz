@@ -33,7 +33,7 @@
     "explanation": "A connaître par coeur, mais savez-vous la démontrer ?<br>Indice : dessinez un cercle de rayon, représentez le cosinus et le sinus d'un angle quelconque et utilisez le théorème de Pythagore !"
   },
   {
-    "question": "Soit un vecteur $\\vec{u} = (3, 2, -1)$. Lequel de ces vecteurs est colinéaire à $u$ ?",
+    "question": "Soit un vecteur $\\vec{u} = (3, 2, -1)$. Lequel de ces vecteurs est colinéaire à $\\vec{u}$ ?",
     "answers": {
      "a": "$\\vec{v} = (1, 1 ,-1)$",
      "b": "$\\vec{v} = (6, 3, -3)$",
