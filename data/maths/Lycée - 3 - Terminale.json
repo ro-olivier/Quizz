@@ -1,13 +1,68 @@
 [
   {
-    "question": "Question 1",
+    "question": "Quelle est la dérivée de la fonction $f$ définie sur $\\mathbb{R}$ par $f(x) = (x^{2} + 1)(x^{3} + 2)$ ?",
     "answers": {
-     "a": "A",
-     "b": "B",
-     "c": "C",
-     "d": "D"
+     "a": "$5x^{4} + 3x^{2} + 4x$",
+     "b": "$-2x^{5} + x^{2} + 8$",
+     "c": "$x^{3} + 3x$",
+     "d": "$x^{2} - 7x - 4$"
     },
     "correctAnswer": "a",
-    "explanation": "Explication"
-  }
+    "explanation": "Inutile de faire de longs calculs, il suffit de s'intéresser au terme dominant du polynôme $f$, $x^{5}$.<br>Sa dérivée est $5x^{4}$ et c'est le terme dominant de la première réponse, qui est accessoirement la seule réponse avec un terme dominant de puissance $4$, et donc la seule réponse valable possible du fait de la linéairité de la dérivation."
+  },
+  {
+    "question": "Pour quelle valeur de $x$ le polynôme $3x^{2} - 4x + 1$ atteint-il un extremum ?",
+    "answers": {
+     "a": "$-\\frac{1}{3}$",
+     "b": "$1$",
+     "c": "$\\frac{2}{3}$",
+     "d": "$0$"
+    },
+    "correctAnswer": "c",
+    "explanation": "Pour tout polynôme de degré $2$, l'extremum est atteint pour $x = \\frac{x_{1} + x_{2}}{2}$ avec $x_{1}$ et $x_{2}$ les racines du polynôme (démonstration à savoir faire !).<br>Cherchons donc les racines de ce polynôme. On peut utiliser la technique du discriminant puis la réduction en forme canonique... mais on peut aussi tester quelques valeurs simples avant de se lancer.<br>On voit rapidement que $1$ annule le polynôme et on peut donc le factoriser sous la forme $(x-1)(3x-a)$ où $a$ est la seconde racine et où le facteur $3$ provident du coefficient du terme de rang $2$.<br>En développant cette forme factorisée on obtient $3x^{2} - ax - 3x + a$ ce qui ne peut être égal à notre polynôme de départ que pour $a = 1$ et on a donc que notre polynôme s'écrit $(x-1)(3x-1)$ ou encore $3(x-1)(x-\\frac{1}{3})$.<br>Les deux racines du polynôme sont donc $1$ et $\\frac{1}{3}$, l'extremum est donc atteint pour $x = \\frac{2}{3}$."
+  },
+  {
+    "question": "Soit les vecteurs suivants : $\\vec{u} = (1,4)$, $\\vec{v} = (-2,6)$ et $\\vec{w} = (2,8)$.<br>Calculez $\\vec{a} = \\vec{u} + \\vec{v}$ et $\\vec{b} = \\vec{w} - \\vec{v}$ et déterminez lesquels de ces 5 vecteurs sont colinéaires.",
+    "answers": {
+     "a": "$\\vec{w}$ et $\\vec{u}$",
+     "b": "$\\vec{a}$ et $\\vec{b}$",
+     "c": "$\\vec{w}$ et $\\vec{b}$",
+     "d": "$\\vec{v}$ et $\\vec{a}$"
+    },
+    "correctAnswer": "a",
+    "explanation": "Pas besoin de calculer $\\vec{a}$ ou $\\vec{b}$ pour remarquer qu'on a $\\vec{w} = 2\\vec{u}$ et que ces deux vecteurs sont donc collinéaires.<br>Pour vérification de vos calculs si vous les avez faits : $\\vec{a} = (-1, 10)$ et $ \\vec{b} = (4,2)$."
+  },
+  {
+    "question": "Dans le plan muni d'un repère orthonormé, on définit la droite $D$ par un point $P = (-1, 3)$ et un vecteur directeur $\\vec(d) = (3,-2)$.<br>Quelle est l'équation de la droite $D$ dans ce plan ?",
+    "answers": {
+     "a": "$y + 4x - 9 = 0$",
+     "b": "$7y + 3x - 2 = 0$",
+     "c": "$2y + 7x - 3 = 0$",
+     "d": "$3y + 2x - 7 = 0$"
+    },
+    "correctAnswer": "d",
+    "explanation": "L'équation d'une droite passant par un point de coordonnées $(x_{0},y_{0})$ et de vecteur directeur de coordonnées $(a,b)$ est $a(y-y_{0}) = b(x-x_{0})$.<br>Si on remplace les variables par les valeurs de l'énoncé on obtient la relation $3(y-3) = -2(x+1)$ qui donne ensuite $3y-9 = -2x-2$ puis $3y + 2x - 7 = 0$.<br>On peut vérifier l'équation en s'assurant qu'elle est vraie pour le point $P$, c'est-à-dire en remplaçant les variables $x$ et $y$ de l'équation obtenue par les coordonnées du point, et on observe que l'équation est bien vérifiée : $3*3 + 2*(-1) - 7 = 0$."
+  },
+    {
+    "question": "",
+    "answers": {
+     "a": "$$",
+     "b": "$$",
+     "c": "$$",
+     "d": "$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "."
+  },
+  {
+    "question": "",
+    "answers": {
+     "a": "$$",
+     "b": "$$",
+     "c": "$$",
+     "d": "$$"
+    },
+    "correctAnswer": "d",
+    "explanation": ""
+  },
 ]
