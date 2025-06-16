@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Completez la phrase suivante : 'The Mediterranean Sea is home to about 50 species of sharks, but thet most famous are the blue shark and the ________ great white shark.'",
+    "answers": {
+     "a": "deadlier",
+     "b": "more deadly",
+     "c": "deadliest",
+     "d": "very deadly"
+    },
+    "correctAnswer": "a",
+    "explanation": "La forme superlative en anglais n'est utilisé qu'à partir du moment où on compare trois éléments ou plus, et également quand on évoque un élément unique parmi une infinité d'autres. Ici, seules deux espèces de requins sont comparées en terme de dangerosité/mortalité : l'une est plus dangereuse que l'autre, on utilise donc le comparatif et non le superlatif. Si trois espèces de requins étaient évoquées, on pourrait les classer par order croissant de dangerosité : 'deadly', deadlier (ou 'more deadly'), deadliest (ou 'most deadly'). De même si on évoquait une unique espèce de requin comme étant la plus mortelle, on pourrait utiliser la forme superlative : 'The great white shark is the deadliest shark there is.'<br>Il faut ensuite déterminer si on utilise la forme 'deadlier' ou 'more deadly' et l'adjectif 'deadly' étant cours (deux syllabes) on peut utiliser le suffixe '-er'."
+  },
+  {
+    "question": "Lequel de ces verbes irréguliers est faux en anglais britannique mais correct en anglais nord-américain ?",
+    "answers": {
+     "a": "dream/dreamt/dreamt",
+     "b": "dreamed/dreamed/dreamed",
+     "c": "mean/meant/meant",
+     "d": "mean/meaned/meaned"
+    },
+    "correctAnswer": "b",
+    "explanation": "L'anglais nord-américain, qu'on dit anglais international, se distingue de l'anglais britannique sur quelques points, notamment quelques verbes irréguliers qui deviennent réguliers en anglais américain. Une langue parlée est vivante, donc elle évolue, par définition ! La forme 'dream/dreamt/dreamt' est la forme britannique tandis que la forme régulière 'dreamed' se retrouve en anglais nord-américain. Quant à 'to mean' ses formes au passé sont meant/meant dans toutes les formes d'anglais."
+  },
+  {
+    "question": "Que signifie la phrase 'Would you like a second helping?'",
+    "answers": {
+     "a": "Est-ce que tu veux de l'aide à nouveau ?",
+     "b": "Est-ce que tu peux venir m'aider une seconde ?",
+     "c": "Est-ce que tu veux reprendre à manger ?",
+     "d": "Est-ce que tu peux m'aider à passer la seconde ?"
+    },
+    "correctAnswer": "b",
+    "explanation": "En anglais le verbe 'to help oneself' signifie 'se servir (à manger)'. On le retrouve notamment dans les expressions 'Help yourself!' ('Servez-vous !') et 'Second/Third helping' ('deuxième/troisième service')."
+  },
+  {
+    "question": "Que signifie le mot 'albeit' ?",
+    "answers": {
+     "a": "'Quoique / bien que', dans le sens par exemple de 'Elle avait tout avoué, <u>bien qu</u>'à contre coeur.'",
+     "b": "'Complètement / absolument', dans le sens par exemple de 'Il avait <u>complètement</u> craqué.",
+     "c": "'En bas / en dessous' dans le sens par exemple de 'Elle avait caché ses clefs <u>en dessous</u> d'un caillou.",
+     "d": "'Malgré que' dans le sens par exemple de 'Il avait tout perdu <u>malgré</u> ses efforts.'"
+    },
+    "correctAnswer": "a",
+    "explanation": "'Albeit' est un mot d'un registre assez soutenu, mais très employé en littérature et en journalisme. Un équivalent plus courant est 'although'."
+  },
+  {
+    "question": "Comment traduiriez-vous la phrase suivante : 'Si j'étais toi, je réserverais ces vacances avant que les prix augmentent !'",
+    "answers": {
+     "a": "If I was you, I would book that vacation before prices get any higher.",
+     "b": "If I were you, I would book that vacation before prices get any higher.",
+     "c": "If I was you, I would have booked that vacation before prices get any higher.",
+     "d": "If I were you, I would have booked that vacation before prices get any higher."
+    },
+    "correctAnswer": "b",
+    "explanation": "La première partie de la phrase est au subjonctif, un temps qui existe en français comme en anglais pour exprimer une hypothèse, ou quelque chose d'imaginaire. Elle se construit avec 'were' et non 'was'. On peut dire 'If I was' pour faire référence à une situation passée mais bien réelle, par exemple 'If I was late to school, my parents grounded me for a week.<br>Enfin, 'I would have booked' signifie 'j'aurais réservé' (au passé), or la seconde partie de la phrase originale est au présent ('je réserverais'), pas au passé !"
+  },
+  {
+    "question": "Completez la phrase suivante : 'The Navajo language is complex, with a structure and sounds that ______ ______ unintelligible to anyone without extensive exposure to it.'",
+    "answers": {
+     "a": "makes them",
+     "b": "makes it",
+     "c": "make it",
+     "d": "make them"
+    },
+    "correctAnswer": "c",
+    "explanation": "Une question un peu <i>tricky</i> ! On peut d'abord chercher à déterminer si on doit utiliser le verbe au pluriel ('make') ou au singulier ('makes'). Pour cela il faut repérer le sujet du verbe, et ici il s'agit de 'structure and sounds', clairement pluriel, c'est donc 'make' qu'il faut choisir.<br>Ensuite, il faut déterminer si on utilise le pronom 'them' ou 'it'. La règle est en fait assez simple : le pronom doit se conformer au nom auquel il fait référence. A quoi fait référence le pronom ici : 'The Navajo language' (qui est singulier) puisse que c'est lui qui est rendu 'unintelligible'. On choisit donc 'it'."
+  }
+]
